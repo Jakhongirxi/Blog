@@ -1,6 +1,6 @@
-{% extends 'blog/base.html' %}
-{# blog detail start #}
-{% block content_detail %}
+{% extends 'base.html' %}
+<!--{# blog detail start #}-->
+<!--{% block content_detail %}-->
     <div class="row mb-5">
         <div class="col-1 text-end">
             <!-- Left arrow-square -->
@@ -61,19 +61,19 @@
                     </span>
                 </button>
             </p>
-            <div class="collapse" id="collapseExample">
-                {% if comments %}
-                    {% for comment in comments %}
-                        <div class="card card-body text-dark mb-2">
-                            {{ comment.user }}
-                            <hr>
-                            {{ comment.message }}
-                        </div>
-                    {% endfor %}
-                {% else %}
-                    <span>No comment!</span>
-                {% endif %}
-            </div>
+<!--            <div class="collapse" id="collapseExample">-->
+<!--                {% if comments %}-->
+<!--                    {% for comment in comments %}-->
+<!--                        <div class="card card-body text-dark mb-2">-->
+<!--                            {{ comment.user }}-->
+<!--                            <hr>-->
+<!--                            {{ comment.message }}-->
+<!--                        </div>-->
+<!--                    {% endfor %}-->
+<!--                {% else %}-->
+<!--                    <span>No comment!</span>-->
+<!--                {% endif %}-->
+<!--            </div>-->
             <!-- /Comments -->
         </div>
         <div class="d-none d-sm-none d-md-none d-lg-inline d-xl-inline d-xxl-inline  col-lg-3 col-xl-3 col-xxl-3 ">

@@ -54,8 +54,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'config.urls'
 
-LOGOUT_REDIRECT_URL = "index"
-LOGIN_REDIRECT_URL = "index"
 
 TEMPLATES = [
     {
